@@ -8,14 +8,17 @@ menu:
   - name: home
     url: ""
     icon: # default use taichi icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1'
-  - name: archives
+  - name: posts
     url: "archives"
     icon:
   - name: about
     url: "about"
     icon:
-  - name: friend
-    url: "friend"
+  # - name: friend
+  #   url: "friend"
+    # icon:
+  - name: projects
+    url: "projects"
     icon:
 
 mainSections: ["post"]
@@ -26,9 +29,9 @@ monthFormat: "2006-01"
 dateFormat: "2006-01-02"
 timeFormat: "2006-01-02 15:04:05"
 
-author: D-Sketon
-email: xxx@example.com
-description: "少女祈祷中..."
+author: 22/7.
+email: x22han7@gmail.com
+description: "computer science student..."
 # subtitle: "少女祈祷中..."
 subtitle:
   typing:
@@ -102,10 +105,10 @@ copyright:
 #   All website licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a></div>
 
 footer:
-  since: 2020 # 2020-current year
-  powered: true
-  count: true
-  busuanzi: true
+  since: 2026 # 2020-current year
+  powered: false
+  count: false
+  busuanzi: false
   icon:
     url: "../images/taichi.png" # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     rotate: true
@@ -120,8 +123,8 @@ sidebar:
     show_common: true # whether to show common sidebar, ignored on mobile devices
 
 social:
-  # email: mailto:xxx@gmail.com
-  # github: https://github.com/yourname
+  email: mailto:x22han7@gmail.com
+  github: https://github.com/22-7-co
   # google: https://plus.google.com/yourname
   # twitter: https://twitter.com/yourname
   # facebook: https://www.facebook.com/yourname
