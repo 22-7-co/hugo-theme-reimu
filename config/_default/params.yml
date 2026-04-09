@@ -50,7 +50,7 @@ subtitle:
     showCursor: true            # 是否显示闪烁的字符
     cursorChar: "|"             # 字符
     smartBackspace: false       # 智能退格，只删除不同的部分
-  text: "少女祈祷中..."        # 当 typing.enable = false 时使用
+  text: "Studying..."        # 当 typing.enable = false 时使用
 
 banner: "images/banner.webp"
 # You can also write it in the form of the following url
@@ -215,7 +215,7 @@ triangle_badge:
 anchor_icon: # default use '#' icon, you can use a hexadecimal representation of fontawesome or icon_font, like 'f0c1', you can also use false to hide anchor icon
 
 reimu_cursor:
-  enable: true
+  enable: false
   cursor:
     default: ../images/cursor/reimu-cursor-default.png  # this path is relative to the css/main.css, so it needs to go up one level to reach the images folder
     pointer: ../images/cursor/reimu-cursor-pointer.png
@@ -459,9 +459,9 @@ algolia_search:
 ########################################
 
 preloader:
-  enable: true
+  enable: false
   text: 
-    zh-CN: 少女祈祷中...
+    zh-CN: Loading...
     zh-TW: 少女祈禱中...
     en: Loading...
     ja: 少女祈祷中...
@@ -708,15 +708,15 @@ material_theme:
 
 internal_theme:
   light:
-    --red-0: '#ff0000'
-    --red-1: '#ff5252'
-    --red-2: '#ff7c7c'
-    --red-3: '#ffafaf'
-    --red-4: '#ffd0d0'
-    --red-5: '#ffecec'
-    --red-5-5: '#fff3f3'
-    --red-6: '#fff7f7'
-    --color-red-6-shadow: 'rgba(255, 78, 78, 0.6)'
+    --red-0: '#ff0000'  # 页面标题
+    --red-1: '#ff5252'   # 文章标题和太极颜色
+    --red-2: '#ff7c7c'  # 名字
+    --red-3: '#ffafaf'    # 侧边的滑动条和鼠标点击会爆出的颜色s
+    --red-4: '#ffd0d0'        # 也是鼠标点击后爆出的颜色
+    --red-5: '#ffecec'     # 日期和文章标签的背景颜色
+    --red-5-5: '#fff3f3'   # 标签被选择时的背景颜色
+    --red-6: '#fff7f7'    # 标签的边缘颜色，现在这种白色挺好
+    --color-red-6-shadow: '#fff7f7'
     --color-red-3-shadow: 'rgba(255, 78, 78, 0.3)'
 
     --highlight-nav: "#f5f5f5"
