@@ -622,7 +622,7 @@ injector:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: false
+  enable: true
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink
@@ -663,28 +663,28 @@ player:
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
       audio: []
       fixed: true
-      autoplay:
-      loop:
-      order:
-      preload:
-      volume:
-      mutex:
-      listFolded:
-      lrcType:
+      autoplay: false
+      loop: all
+      order: list
+      preload: auto
+      volume: 0.7
+      mutex: true
+      listFolded: false
+      lrcType: false
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
-    enable: false
+    enable: true
     meting_api: # custom api
     options:
-      id: 2265921590
-      server: netease
+      id: 35026261
+      server: kugou
       type: playlist
-      auto:
+      auto: neteases
 
 ########################################
 # pangu.js
