@@ -681,8 +681,8 @@ player:
     enable: true
     meting_api: # custom api
     options:
-      id: 35026261
-      server: kugou
+      id: 17887160801
+      server: netease
       type: playlist
       auto: neteases
 
